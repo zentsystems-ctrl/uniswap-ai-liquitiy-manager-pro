@@ -134,8 +134,7 @@ npm install
 ### 3. Install Python Dependencies
 
 ```bash
-sudo apt update
-sudo apt install python3-venv
+python3 -m venv venv
 source venv/bin/activate
 cd ai
 pip install -r requirements_ai.txt
@@ -646,6 +645,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **⚠️ Disclaimer**: This software is provided "as is" without warranty. Use at your own risk. Always test thoroughly before deploying to mainnet with real funds.
+
 
 
 
