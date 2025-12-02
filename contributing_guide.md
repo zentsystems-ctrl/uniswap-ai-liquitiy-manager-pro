@@ -40,13 +40,13 @@ We pledge to make participation in our project a harassment-free experience for 
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/uniswap-v3-ai-manager.git
-   cd uniswap-v3-ai-manager
+   git clone https://github.com/zentsystems-ctrl/uniswap-ai-liquidity-manager-pro.git
+   cd uniswap-ai-liquidity-manager-pro
    ```
 
 3. **Add upstream remote**:
    ```bash
-   git remote add upstream https://github.com/ORIGINAL_OWNER/uniswap-v3-ai-manager.git
+   git remote add upstream https://github.com/ORIGINAL_OWNER/uniswap-ai-liquidity-manager-pro.git
    ```
 
 4. **Install dependencies**:
