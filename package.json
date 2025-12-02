@@ -1,0 +1,31 @@
+{
+  "name": "unified-index-repo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "hardhat test",
+    "test:fork": "hardhat test --network hardhat",
+    "test:integrity": "hardhat test test/ContractIntegrity.test.js",
+    "verify:tests": "node scripts/verifyTests.js",
+    "test:verified": "npm run verify:tests && npm run test:integrity && npm run test",
+    "test:full": "npm run verify:tests && npm run test:integrity && npm run test:fork"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "dotenv-cli": "^7.4.4",
+    "hardhat": "^2.26.5",
+    "solidity-coverage": "^0.8.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "@uniswap/v3-core": "github:Uniswap/v3-core#main",
+    "@uniswap/v3-periphery": "github:Uniswap/v3-periphery#main",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^6.15.0",
+    "express": "^5.1.0",
+    "prb-math": "^2.4.3",
+    "prom-client": "^15.1.3"
+  }
+}

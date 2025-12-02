@@ -1,0 +1,221 @@
+# ═══════════════════════════════════════════════════════════════
+# ENVIRONMENT & SECRETS
+# ═══════════════════════════════════════════════════════════════
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets/
+
+# ═══════════════════════════════════════════════════════════════
+# NODE.JS
+# ═══════════════════════════════════════════════════════════════
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+package-lock.json
+yarn.lock
+
+# ═══════════════════════════════════════════════════════════════
+# PYTHON
+# ═══════════════════════════════════════════════════════════════
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.pytype/
+cython_debug/
+*.log
+
+# ═══════════════════════════════════════════════════════════════
+# HARDHAT
+# ═══════════════════════════════════════════════════════════════
+cache/
+artifacts/
+typechain/
+typechain-types/
+
+# ═══════════════════════════════════════════════════════════════
+# DATA & LOGS
+# ═══════════════════════════════════════════════════════════════
+data/
+logs/
+*.ndjson
+*.log
+*.csv
+*.json.bak
+*.db
+*.sqlite
+*.sqlite3
+
+# Except example/template files
+!data/.gitkeep
+!logs/.gitkeep
+!*example*.json
+!*template*.json
+
+# ═══════════════════════════════════════════════════════════════
+# ML MODELS
+# ═══════════════════════════════════════════════════════════════
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pb
+models/*.joblib
+models/*.pkl
+
+# Except example models
+!models/.gitkeep
+!models/README.md
+
+# ═══════════════════════════════════════════════════════════════
+# MONITORING
+# ═══════════════════════════════════════════════════════════════
+monitoring/prometheus/data/
+monitoring/grafana/data/
+monitoring/alertmanager/data/
+
+# ═══════════════════════════════════════════════════════════════
+# TESTING
+# ═══════════════════════════════════════════════════════════════
+coverage/
+.nyc_output/
+test-results/
+*.test.js.snap
+
+# ═══════════════════════════════════════════════════════════════
+# DOCKER
+# ═══════════════════════════════════════════════════════════════
+*.dockerignore.bak
+docker-compose.override.yml
+
+# ═══════════════════════════════════════════════════════════════
+# EDITORS & IDEs
+# ═══════════════════════════════════════════════════════════════
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ═══════════════════════════════════════════════════════════════
+# OS
+# ═══════════════════════════════════════════════════════════════
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ═══════════════════════════════════════════════════════════════
+# BACKUP & TEMPORARY
+# ═══════════════════════════════════════════════════════════════
+*.bak
+*.backup
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# ═══════════════════════════════════════════════════════════════
+# DOCUMENTATION BUILD
+# ═══════════════════════════════════════════════════════════════
+docs/_build/
+docs/.doctrees/
+site/
+
+# ═══════════════════════════════════════════════════════════════
+# DEPLOYMENT
+# ═══════════════════════════════════════════════════════════════
+.terraform/
+*.tfstate
+*.tfstate.backup
+.serverless/
+.deploy/
+
+# ═══════════════════════════════════════════════════════════════
+# MISC
+# ═══════════════════════════════════════════════════════════════
+.venv/
+venv/
+ENV/
+env/
+.ipynb_checkpoints/
+*.pid
+*.seed
+*.pid.lock
+
